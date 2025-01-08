@@ -8,7 +8,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 import matplotlib.pyplot as plt
 
-file_path = "walmart_sales.csv" 
+file_path = "C:/Users/lenovo/Desktop/Derin Öğrenme Çalışmaları/Python_Basics/walmart_sales.csv" 
 df = pd.read_csv(file_path)
 
 print("Veri seti başlıkları:")

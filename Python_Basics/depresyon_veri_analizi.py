@@ -10,7 +10,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, confusion_matrix
 
-df = pd.read_csv("depresyon_veri_seti.csv")
+df = pd.read_csv("C:/Users/lenovo/Desktop/Derin Öğrenme Çalışmaları/Python_Basics/depresyon_veri_seti.csv")
 
 print(df.head())
 print(df.info())
